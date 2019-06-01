@@ -3,8 +3,13 @@ empty_hash = {}
 end
 
 def actor
+<<<<<<< HEAD
 actor = {:name => "Dwayne The Rock Johnson"}
 actor
+=======
+actor = {"name" => "Dwayne The Rock Johnson"}
+actor[:name]
+>>>>>>> d7bb08a0f6cc4f573fa409fcaa9a660401052982
 end
 
 def monopoly
